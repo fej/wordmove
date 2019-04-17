@@ -7,14 +7,15 @@ Docker image to run [Wordmove](https://wptools.it/wordmove/).
 
 ## What's inside
 
-* alpine 
+* alpine:3.9.3 
 * openssh-server
 * curl
 * rsync
 * sshpass
 * wordmove
-* mysql-client-5.5
-* php5
+* mysql-client
+* ruby
+* php7
 * wp-cli
 * lftp
 * ENV RUBYOPT="-KU -E utf-8:utf-8" (Fix for some mysql sync issues when using old
